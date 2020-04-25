@@ -1,5 +1,6 @@
-var express = require("express");
 var mysql = require("mysql");
+var express = require("express");
+var exphbs = require("express-handlebars");
 
 // Create instance of express app.
 var app = express();
@@ -16,6 +17,8 @@ var connection = mysql.createConnection({
   password: "password",
   database: "seinfeld"
 });
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
 
 // Initiate MySQL Connection.
 connection.connect(function(err) {
@@ -25,7 +28,14 @@ connection.connect(function(err) {
   }
   console.log("connected as id " + connection.threadId);
 });
-
+// Data
+var lunches = [
+  {
+    lunch: "Beet & Goat Cheese Salad with minestrone soup."
+  }, {
+    lunch: "Pizza, two double veggie burgers, fries with a Big Gulp"
+  }
+];
 // Routes
 app.get("/cast", function(req, res) {
   connection.query("SELECT * FROM actors ORDER BY id", function(err, result) {
