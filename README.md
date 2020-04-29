@@ -5,7 +5,7 @@
  
 #   
  
-  # **Project** Eat-Da-Burger
+  # **Project** Burger-Queen
   
   ##  **_Live Link_** 
   * 
@@ -21,7 +21,7 @@
   ##  **Description**
  
 
- <img   src="assets/notetakerSH1.png" alt="screenshot" />
+ <img   src="assets/png" alt="screenshot" />
  
 
   ## **Installation**
