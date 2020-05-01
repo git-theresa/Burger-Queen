@@ -25,10 +25,10 @@
  
 
   ## **Installation**
-  JSON Package Included
+  MySql, Node Express, Node Express-Handlebars
  
   ## **Technology Stack**
- HTML, CSS, JavaScript, jQuery, Node.Js, Node Express, MySQL, Handlebars
+ HTML, CSS, JavaScript, jQuery, Node.Js, Node Express, MySQL, Node Express-Handlebars
 
   ##  **Usage**
 
