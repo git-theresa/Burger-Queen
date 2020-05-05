@@ -1,21 +1,21 @@
 
 $(function() {
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
   $(".change-devoured").on("click", function(event) 
   {
     var id = $(this).data("id");
-    var newDevoured = $(this).data("newDevoured");
-    var newDevouredState = 
-    {
+    var newDevoured = $(this).data("newdevoured");
+    var newDevouredState = {
       devoured: newDevoured
     };
-
-   
+console.log(newDevoured)
     $.ajax("/api/burgers/" + id, 
     {
       type: "PUT",
       data: newDevouredState
-    }).then(function() 
-    {
+    }).then(function() {
       location.reload();
     }
     );
