@@ -1,8 +1,20 @@
+body {
+ background-color: black;
+ color: whitesmoke;
+}
+#cardburger {
+  background-color: black;
+  color: whitesmoke;
+}
+#cardevour{
+  background-color: black;
+  color: whitesmoke;
+}
 
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+ 
 }
 
 .label {
@@ -12,7 +24,7 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  
 }
 
 .form-group {
@@ -20,4 +32,49 @@ li {
 }
 .jumbotron {
   background-color: grey;
+}
+ul {
+  list-style-type: none;
+}
+#exampleModal {
+  background-color: grey;
+  color: black;
+}
+/* Media Screen Sizing */
+
+@media screen and (max-width: 991.98px) {
+  body {
+    background-color: black;
+  }
+}
+.wrapper {
+  width: 625px;
+}
+
+@media screen and (max-width: 970px) {
+  body {
+    background-color: black;
+  }
+}
+/* The wrapper's width will be 600px */
+.wrapper {
+  width: 600px;
+}
+
+@media screen and (max-width: 767.98px) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+.wrapper {
+  width: 500px;
+}
+
+@media screen and (max-width: 575.98px) {
+  body {
+    background-color: black;
+  }
+}
+.wrapper {
+  width: 250px;
 }

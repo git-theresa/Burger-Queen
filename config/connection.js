@@ -5,13 +5,12 @@ require("dotenv").config()
 
 var connection = mysql.createConnection (
   process.env.JAWSDB_URL || {
-  host: "localhost",
+  host: process.env.HOST,
   port: 3306,
   user: process.env.USER_NAME,
   password: process.env.USER_PWD,
   database: "burger_db"
-  
-}
+  }
 );
 
 connection.connect(function(err) {
