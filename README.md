@@ -21,7 +21,7 @@
   ##  **Description**
  
 
- <img  src= "assets/images/burger.gif" alt="gif" />
+ <img src= "public/assets/images/burger.gif" alt="gif" />
  
 
   ## **Installation**
