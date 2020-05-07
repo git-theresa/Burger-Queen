@@ -21,7 +21,7 @@
   ##  **Description**
  
 
- <img   src="assets/png" alt="screenshot" />
+ <img  src= "assets/images/burger.gif" alt="gif" />
  
 
   ## **Installation**
@@ -34,7 +34,7 @@
 
  
 
-<img   src="assets/" alt="screenshot" />
+
 
 
 
