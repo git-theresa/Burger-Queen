@@ -32,8 +32,11 @@
 
   ##  **Usage**
 
- 
-
+  To use The Burger Queen app, click the link _https://burgerqueenjoint.herokuapp.com/_. 
+  You will be given a list of tasty burgers that you can devour or delete. 
+  If you devour a burger, that particular burger will appear on the other side of the page for you to eat again or just delete. 
+  If you have a burger of your own you would like to devour or just add to the list, simply click the "Add Burger" at the bottom of the page 
+  and follow the prompts given in the modal.
 
 
 
